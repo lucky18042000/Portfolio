@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: #ffffff;
+  box-shadow: 0px 5.33333px 80px rgba(0, 0, 0, 0.1);
+}
+.navbar-button {
+  border: 1.33333px solid #5e3bee;
+  border-radius: 5.33333px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: #5e3bee;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 28px 85px; */
+  /* BG Shade */
+
+  background: #f5fcff;
+}
+.header-firstpara {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.3333px;
+  line-height: 150%;
+  /* identical to box height, or 32px */
+
+  text-align: center;
+
+  /* Heading color */
+
+  color: #282938;
+}
+.header-main {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74.6667px;
+  line-height: 120%;
+  /* or 90px */
+
+  /* Heading color */
+
+  color: #282938;
+}
+.header-profile {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 74.6667px;
+  line-height: 120%;
+  /* or 90px */
+
+  /* Primary */
+
+  color: #5e3bee;
+}
+.header-button{
+padding: 20px 40px;
+
+/* Primary */
+
+background: #5E3BEE;
+border-radius: 5.33333px;
+color: white;
+/* Inside auto layout */
+
+}
+
+
+.card-main{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+ margin-bottom: 20px;
+ border-radius: 20px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.15);
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+
+}
+.card-content{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px;
+gap: 20px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.card-image{
+  background: url(image.png);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.card-title {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 140%;
+/* identical to box height, or 45px */
+
+
+/* Heading color */
+
+color: #282938;
+
+
+}
+.card-para{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 21.3333px;
+line-height: 150%;
+/* or 32px */
+
+
+/* Body */
+
+color: #1C1E53;
+}
+.card-link{
+  display: flex;
+padding: 0px 0px 10.6667px;
+gap: 21.33px;
+border-bottom: 1.33333px solid #5E3BEE;
+
+}
