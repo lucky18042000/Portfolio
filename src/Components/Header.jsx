@@ -13,7 +13,7 @@ function Header() {
                         </h1>
                         <p className="mb-8 leading-relaxed">There are a lot of reasons why someone might want to become a front end developer: Money,Challenge,Impact But I Started to Learn Front End Just Because I Like it</p>
                         <div className="flex justify-center">
-                            <button className="header-button  inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-3 focus:outline-none rounded hover:shadow-2xl">Get In Touch</button>
+                            <a href="http://api.whatsapp.com/send?phone=+918526195357" target="_blank" className="header-button  inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-3 focus:outline-none rounded hover:shadow-2xl">Get In Touch</a>
                         </div>
                     </div>
                     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">

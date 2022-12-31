@@ -17,7 +17,7 @@ function Navbar() {
           </a>
           <div className="flex md:order-2">
             <a
-              href="https://web.whatsapp.com/send/?phone=918526195357"
+              href="http://api.whatsapp.com/send?phone=+918526195357"
               target="_blank"
               className="text-black navbar-button font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0"
             >
